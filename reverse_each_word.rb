@@ -3,5 +3,5 @@ def reverse_each_word(string)
   wordSalad.collect do|word|
     wordSalad.reverse!
   end
-  wordSalad.join(',')
+  wordSalad.join(' ')
 end
