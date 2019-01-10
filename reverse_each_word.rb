@@ -1,7 +1,7 @@
 def reverse_each_word(string)
-  wordSalad=string
-  wordSalad.collect do |word|
-    word.reverse!
+  wordSalad= [ ]
+  string.split(' ').collect do |word|
+    wordSalad << word.reverse!
   end
   wordSalad.join(' ')
 end
